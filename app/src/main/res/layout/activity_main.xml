@@ -6,9 +6,10 @@
     android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:padding="8dp">
 
         <LinearLayout
@@ -21,6 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/instructions"
+                android:padding="10dp"
                 android:textStyle="bold|italic" />
 
             <LinearLayout
@@ -364,31 +366,30 @@
             </LinearLayout>
         </LinearLayout>
 
-        <Button
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
-            android:textSize="16sp"
-            android:onClick="gradeTest"
-            android:text="@string/submit" />
+            android:padding="6dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="16sp"
+                android:onClick="gradeTest"
+                android:text="@string/submit" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:textSize="16sp"
-            android:onClick="reset"
-            android:text="@string/reset" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textSize="16sp"
+                android:onClick="reset"
+                android:text="@string/reset" />
+        </RelativeLayout>
 
-    </RelativeLayout>
+    </LinearLayout>
 </ScrollView>
