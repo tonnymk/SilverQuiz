@@ -1,0 +1,129 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Silver Quiz</string>
+
+    <!-- Text for instructions [CHAR LIMIT=NONE] -->
+    <string name="instructions">Please read instructions carefully.</string>
+
+    <!-- Text for Question 1 [CHAR LIMIT=NONE] -->
+    <string name="question_1_text">1. Which of the following IP addresses are not allowed on the Internet? (Choose all that apply)</string>
+
+    <!-- Text for Question 2 [CHAR LIMIT=NONE] -->
+    <string name="question_2_text">2. Which topology is easiest to troubleshoot and scalable? (Select one)</string>
+
+    <!-- Text for Question 3 [CHAR LIMIT=NONE] -->
+    <string name="question_3_text">3. IP resides at which layer of the OSI model? (Type out answer)</string>
+
+    <!-- Text for Question 4 [CHAR LIMIT=NONE] -->
+    <string name="question_4_text">4. Which of the following are not distance vector routing protocols? (Choose all that apply)</string>
+
+    <!-- Text for Question 5 [CHAR LIMIT=NONE] -->
+    <string name="question_5_text">5. What is Layer 2 of the OSI model called? (Select one)</string>
+
+    <!-- Text for Question 6 [CHAR LIMIT=NONE] -->
+    <string name="question_6_text">6. Which device would connect network segments together, creating separate collision domains for each segment but only a single broadcast domain? (Type out answer)</string>
+
+    <!-- Text for Question 7 [CHAR LIMIT=NONE] -->
+    <string name="question_7_text">7. Which of the following are types of denial of service attacks? (Choose all that apply)</string>
+
+    <!-- Text for Question 8 [CHAR LIMIT=NONE] -->
+    <string name="question_8_text">8. Which UTP wiring uses four twisted wire pairs (eight wires) and is rated for 250MHz? (Select one)</string>
+
+    <!-- Text for Question 9 [CHAR LIMIT=NONE] -->
+    <string name="question_9_text">9. A networking device that forwards data packets between computer networks.  (Type out answer)</string>
+
+    <!-- Text for Question 10 [CHAR LIMIT=NONE] -->
+    <string name="question_10_text">10. Which of the following are WAN protocols or technologies? (Choose all that apply)</string>
+
+    <!-- Text for answer checkbox option A for Question 1 [CHAR LIMIT=NONE] -->
+    <string name="q1_check_box_a_text">A. 11.255.255.1</string>
+
+    <!-- Text for answer checkbox option B for Question 1 [CHAR LIMIT=NONE] -->
+    <string name="q1_check_box_b_text">B. 10.1.1.1</string>
+
+    <!-- Text for answer checkbox option C for Question 1 [CHAR LIMIT=NONE] -->
+    <string name="q1_check_box_c_text">C. 172.33.255.0</string>
+
+    <!-- Text for answer checkbox option D for Question 1 [CHAR LIMIT=NONE] -->
+    <string name="q1_check_box_d_text">D. 192.168.0.1</string>
+
+    <!-- Text for answer checkbox option A for Question 4 [CHAR LIMIT=NONE] -->
+    <string name="q4_check_box_a_text">A. OSPF</string>
+
+    <!-- Text for answer checkbox option B for Question 4 [CHAR LIMIT=NONE] -->
+    <string name="q4_check_box_b_text">B. RIP</string>
+
+    <!-- Text for answer checkbox option C for Question 4 [CHAR LIMIT=NONE] -->
+    <string name="q4_check_box_c_text">C. RIPv2</string>
+
+    <!-- Text for answer checkbox option D for Question 4 [CHAR LIMIT=NONE] -->
+    <string name="q4_check_box_d_text">D. IS-IS</string>
+
+    <!-- Text for answer checkbox option A for Question 7 [CHAR LIMIT=NONE] -->
+    <string name="q7_check_box_a_text">A. Ping of Death</string>
+
+    <!-- Text for answer checkbox option B for Question 7 [CHAR LIMIT=NONE] -->
+    <string name="q7_check_box_b_text">B. Stacheldraht</string>
+
+    <!-- Text for answer checkbox option C for Question 7 [CHAR LIMIT=NONE] -->
+    <string name="q7_check_box_c_text">C. SYN flood</string>
+
+    <!-- Text for answer checkbox option D for Question 7 [CHAR LIMIT=NONE] -->
+    <string name="q7_check_box_d_text">D. Virus FloodSyn</string>
+
+    <!-- Text for answer checkbox option A for Question 10 [CHAR LIMIT=NONE] -->
+    <string name="q10_check_box_a_text">A. ATM</string>
+
+    <!-- Text for answer checkbox option B for Question 10 [CHAR LIMIT=NONE] -->
+    <string name="q10_check_box_b_text">B. ISDN</string>
+
+    <!-- Text for answer checkbox option C for Question 10 [CHAR LIMIT=NONE] -->
+    <string name="q10_check_box_c_text">C. MPLS</string>
+
+    <!-- Text for answer checkbox option D for Question 10 [CHAR LIMIT=NONE] -->
+    <string name="q10_check_box_d_text">D. RIP</string>
+
+    <!-- Text for answer radio button option A for Question 2 [CHAR LIMIT=NONE] -->
+    <string name="q2_radio_button_a_text">A. Bus</string>
+
+    <!-- Text for answer radio button option B for Question 2 [CHAR LIMIT=NONE] -->
+    <string name="q2_radio_button_b_text">B. Star</string>
+
+    <!-- Text for answer radio button option C for Question 2 [CHAR LIMIT=NONE] -->
+    <string name="q2_radio_button_c_text">C. Mesh</string>
+
+    <!-- Text for answer radio button option D for Question 2 [CHAR LIMIT=NONE] -->
+    <string name="q2_radio_button_d_text">D. Ring</string>
+
+    <!-- Text for answer radio button option A for Question 5 [CHAR LIMIT=NONE] -->
+    <string name="q5_radio_button_a_text">A. Application layer</string>
+
+    <!-- Text for answer radio button option B for Question 5 [CHAR LIMIT=NONE] -->
+    <string name="q5_radio_button_b_text">B. Network laye</string>
+
+    <!-- Text for answer radio button option C for Question 5 [CHAR LIMIT=NONE] -->
+    <string name="q5_radio_button_c_text">C. Transport layer</string>
+
+    <!-- Text for answer radio button option D for Question 5 [CHAR LIMIT=NONE] -->
+    <string name="q5_radio_button_d_text">D. Data Link layer</string>
+
+    <!-- Text for answer radio button option A for Question 8 [CHAR LIMIT=NONE] -->
+    <string name="q8_radio_button_a_text">A. Category 3 UTP</string>
+
+    <!-- Text for answer radio button option B for Question 8 [CHAR LIMIT=NONE] -->
+    <string name="q8_radio_button_b_text">B. Category 5 STP</string>
+
+    <!-- Text for answer radio button option C for Question 8 [CHAR LIMIT=NONE] -->
+    <string name="q8_radio_button_c_text">C. Category 5 UTP</string>
+
+    <!-- Text for answer radio button option D for Question 8 [CHAR LIMIT=NONE] -->
+    <string name="q8_radio_button_d_text">D. Category 6 UTP</string>
+
+    <!-- Text for Submit button [CHAR LIMIT=8] -->
+    <string name="submit">Submit</string>
+
+    <!-- Text for Reset button [CHAR LIMIT=8] -->
+    <string name="reset">Reset</string>
+
+    <!-- Summary message displayed in a toast. It will be in the format of "You scored X" where X is the user's score. [CHAR LIMIT=NONE] -->
+    <string name="summaryMessage">You scored <xliff:g example="10" id="testScore">%d</xliff:g></string>
+</resources>
